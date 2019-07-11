@@ -1,0 +1,7 @@
+def main():
+  marks=float(input("What mark did you get?:"))
+  if marks < 50:
+    print("Student has failed the exam")
+  if marks > 50:
+    print("student has passed exam")
+main()
