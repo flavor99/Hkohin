@@ -1,0 +1,6 @@
+groceryList=[]
+name=input("Please enter a groceryList, or 'QUIT' to stop:")
+
+while name != "QUIT":
+  groceryList.append(name)
+  name=input("Please enter a groceryList, or 'QUIT' to stop:")
